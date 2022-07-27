@@ -1,8 +1,6 @@
 import 'package:flutter/material.dart';
 import '../home/home_page.dart';
 import '../new/news_page.dart';
-
-
 class RouteGenerator{
   static RouteGenerator _generator = RouteGenerator. _init();
   static RouteGenerator get router => _generator;
